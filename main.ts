@@ -1,4 +1,9 @@
-﻿//% color="#C814B8" weight=20 icon="\uf11b"
+﻿/*
+load dependency
+"ControlRemoto": "file:../pxt-ControlRemoto"
+*/
+
+//% color="#C814B8" weight=20 icon="\uf11b"
 namespace ControlRemoto {
 
     const PCA9685_ADD = 0x41;
