@@ -32,27 +32,27 @@ namespace ControlRemoto {
         Stepper1
     }
     export enum Angle {
-        //% blockId="Angle0" block="first gear"
+        //% blockId="Angle0" block="Primer marcha"
         Angle0 = 0,
-        //% blockId="Angle1" block="second gear"
+        //% blockId="Angle1" block="Segunda marcha"
         Angle1,
-        //% blockId="Angle2" block="third gear"
+        //% blockId="Angle2" block="Tercera marcha"
         Angle2,
-        //% blockId="Angle3" block="forth gear"
+        //% blockId="Angle3" block="Cuarta marcha"
         Angle3,
-        //% blockId="Angle4" block="fifth gear"
+        //% blockId="Angle4" block="Quinta marcha"
         Angle4,
-        //% blockId="Angle5" block="sixth gear"
+        //% blockId="Angle5" block="Sexta marcha"
         Angle5,
-        //% blockId="Angle6" block="seventh gear"
+        //% blockId="Angle6" block="Septima marcha"
         Angle6,
-        //% blockId="Angle7" block="eighth gear"
+        //% blockId="Angle7" block="Octava marcha"
         Angle7
     }
     export enum Beamstate {
-     	//% blockId="bright" block="Bright"
+     	//% blockId="bright" block="Brillante"
      	bright = 1,
-     	//% blockId="dark" block="Dark"
+     	//% blockId="dark" block="Oscuro"
      	dark
     }
     export enum enMusic {
@@ -89,9 +89,9 @@ namespace ControlRemoto {
     }
     
     export enum Motorshock {
-        //% blockId="OFF" block="OFF"
+        //% blockId="OFF" block="Apagado"
         OFF = 0,
-        //% blockId="ON" block="ON"
+        //% blockId="ON" block="Encendido"
         ON
     }
     
@@ -107,22 +107,22 @@ namespace ControlRemoto {
     export enum enRocker {
         //% blockId="Nostate" block="Nostate"
         Nostate = 0,
-        //% blockId="Up" block="Up"
+        //% blockId="Up" block="Arriba"
         Up,
-        //% blockId="Down" block="Down"
+        //% blockId="Down" block="Abajo"
         Down,
-        //% blockId="Left" block="Left"
+        //% blockId="Left" block="Izquierda"
         Left,
-        //% blockId="Right" block="Right"
+        //% blockId="Right" block="Derecha"
         Right,
-        //% blockId="Press" block="Press"
+        //% blockId="Press" block="Pulso"
         Press
     }
     
     export enum enButtonState {
-        //% blockId="Press" block="Press"
+        //% blockId="Press" block="Pulso"
         Press = 0,
-        //% blockId="Realse" block="Realse"
+        //% blockId="Realse" block="Sin Pulso"
         Realse = 1
     }
     
@@ -135,21 +135,21 @@ namespace ControlRemoto {
     }
     
     export enum enColor {
-        //% blockId="OFF" block="OFF"
+        //% blockId="OFF" block="Apagado"
         OFF = 0,
-        //% blockId="RED" block="RED"
+        //% blockId="RED" block="Rojo"
         RED,
-        //% blockId="GREEN" block="GREEN"
+        //% blockId="GREEN" block="Verde"
         GREEN,
-        //% blockId="BLUE" block="BLUE"
+        //% blockId="BLUE" block="Azul"
         BLUE,
-        //% blockId="WHITE" block="WHITE"
+        //% blockId="WHITE" block="Blanco"
         WHITE,
-        //% blockId="CYAN" block="CYAN"
+        //% blockId="CYAN" block="Cian"
         CYAN,
-        //% blockId="PINKISH" block="PINKISH"
+        //% blockId="PINKISH" block="Rosáceo"
         PINKISH,
-        //% blockId="YELLOW" block="YELLOW"
+        //% blockId="YELLOW" block="Amarillo"
         YELLOW
     }
     
@@ -238,7 +238,7 @@ namespace ControlRemoto {
         ControlRemoto.RGB_Program().show();
     }
     
-    //% blockId=ControlRemoto_Min_Motor_Shake block="Min_Motor_Shake|value %value"
+    //% blockId=ControlRemoto_Min_Motor_Shake block="Minimo_Motor_Sacudir|valor %value"
     //% weight=97
     //% blockGap=10
     //% color="#C814B8"
@@ -256,7 +256,7 @@ namespace ControlRemoto {
         }               
     }
     
-    //% blockId=ControlRemoto_Rocker block="Rocker|value %value"
+    //% blockId=ControlRemoto_Rocker block="Jockstick|valor %value"
     //% weight=96
     //% blockGap=10
     //% color="#C814B8"
