@@ -1,10 +1,5 @@
-﻿/*
-load dependency
-"GHBit": "file:../pxt-ghbit"
-*/
-
-//% color="#C814B8" weight=20 icon="\uf11b"
-namespace GHBit {
+﻿//% color="#C814B8" weight=20 icon="\uf11b"
+namespace ControlRemoto {
 
     const PCA9685_ADD = 0x41;
     const MODE1 = 0x00;
@@ -219,7 +214,7 @@ namespace GHBit {
      * @param index
      */
     
-    //% blockId=GHBit_RGB_Program block="RGB_Programa"
+    //% blockId=ControlRemoto_RGB_Program block="RGB_Programa"
     //% weight=99
     //% blockGap=10
     //% color="#C814B8"
@@ -232,18 +227,18 @@ namespace GHBit {
         return yahStrip;  
     }  
        
-    //% blockId=GHBit_RGB_Program_Close block="RGB_Programa_Cerrar"
+    //% blockId=ControlRemoto_RGB_Program_Close block="RGB_Programa_Cerrar"
     //% weight=98
     //% blockGap=10
     //% color="#C814B8"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
     export function RGB_Program_Close(): void {
         pins.digitalWritePin(DigitalPin.P4, 0);
-        GHBit.RGB_Program().clear();
-        GHBit.RGB_Program().show();
+        ControlRemoto.RGB_Program().clear();
+        ControlRemoto.RGB_Program().show();
     }
     
-    //% blockId=GHBit_Min_Motor_Shake block="Min_Motor_Shake|value %value"
+    //% blockId=ControlRemoto_Min_Motor_Shake block="Min_Motor_Shake|value %value"
     //% weight=97
     //% blockGap=10
     //% color="#C814B8"
@@ -261,7 +256,7 @@ namespace GHBit {
         }               
     }
     
-    //% blockId=GHBit_Rocker block="Rocker|value %value"
+    //% blockId=ControlRemoto_Rocker block="Rocker|value %value"
     //% weight=96
     //% blockGap=10
     //% color="#C814B8"
@@ -305,7 +300,7 @@ namespace GHBit {
 
     }
     
-    //% blockId=GHBit_Button block="Button|num %num|value %value"
+    //% blockId=ControlRemoto_Button block="Button|num %num|value %value"
     //% weight=95
     //% blockGap=10
     //% color="#C814B8"
@@ -380,7 +375,7 @@ namespace GHBit {
         pins.onPulsed(Pin, PulseValue.Low, body);
     }
     
-    //% blockId=GHBit_Music_Handle block="Music_Handle|%index"
+    //% blockId=ControlRemoto_Music_Handle block="Music_Handle|%index"
     //% weight=92
     //% blockGap=10
     //% color="#C814B8"
@@ -410,7 +405,7 @@ namespace GHBit {
         }
     }
     
-    //% blockId=GHBit_Servo_Handle block="Servo_Handle|num %num|value %value"
+    //% blockId=ControlRemoto_Servo_Handle block="Servo_Handle|num %num|value %value"
     //% weight=91
     //% blockGap=10
     //% color="#C814B8"
@@ -425,7 +420,7 @@ namespace GHBit {
 
     }
         
-    //% blockId=GHBit_Ultrasonic_Handle block="ultrasonic return distance(cm)"
+    //% blockId=ControlRemoto_Ultrasonic_Handle block="ultrasonic return distance(cm)"
     //% color="#C814B8"
     //% weight=90
     //% blockGap=10
@@ -453,7 +448,7 @@ namespace GHBit {
       return  Math.floor(length);
     }
 
-    //% blockId=GHBit_RGB_Colorful block="RGB_Colorful|%value"
+    //% blockId=ControlRemoto_RGB_Colorful block="RGB_Colorful|%value"
     //% weight=89
     //% blockGap=10
     //% color="#C814B8"
@@ -511,7 +506,7 @@ namespace GHBit {
         }
     }
     
-    //% blockId=GHBit_Stepper_Motor block="Stepper_Motor|value %value|value1 %value1"
+    //% blockId=ControlRemoto_Stepper_Motor block="Stepper_Motor|value %value|value1 %value1"
     //% weight=88
     //% blockGap=10
     //% color="#C814B8"
@@ -584,7 +579,7 @@ namespace GHBit {
             }               
         } 
     }  
-    //% blockId=GHBit_Min_Motor block="Min_Motor|value %value"
+    //% blockId=ControlRemoto_Min_Motor block="Min_Motor|value %value"
     //% weight=87
     //% blockGap=10
     //% color="#C814B8"
@@ -633,7 +628,7 @@ namespace GHBit {
             }
         }               
     }   
-    //% blockId=GHBit_Rotate block="Rotate|value %value"
+    //% blockId=ControlRemoto_Rotate block="Rotate|value %value"
     //% weight=86
     //% blockGap=10
     //% color="#C814B8"
@@ -703,7 +698,7 @@ namespace GHBit {
         return a;
     }
     
-    //% blockId=GHBit_Beam block="Beam|value %value"
+    //% blockId=ControlRemoto_Beam block="Beam|value %value"
     //% weight=85
     //% blockGap=10
     //% color="#C814B8"
