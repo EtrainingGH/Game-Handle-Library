@@ -24,11 +24,11 @@ namespace ControlRemoto {
     let yahStrip: neopixel.Strip;
     
     export enum STepper {
-        //% blockId="Stepper" block="foreward"
+        //% blockId="Stepper" block="Adelante"
         Stepper = 0,
-        //% blockId="Stepper0" block="reversal"
+        //% blockId="Stepper0" block="Reversa"
         Stepper0,
-        //% blockId="Stepper1" block="Stop"
+        //% blockId="Stepper1" block="Parar"
         Stepper1
     }
     export enum Angle {
@@ -105,7 +105,7 @@ namespace ControlRemoto {
     }
     
     export enum enRocker {
-        //% blockId="Nostate" block="Nostate"
+        //% blockId="Nostate" block="Sin estado"
         Nostate = 0,
         //% blockId="Up" block="Arriba"
         Up,
@@ -300,7 +300,7 @@ namespace ControlRemoto {
 
     }
     
-    //% blockId=ControlRemoto_Button block="Button|num %num|value %value"
+    //% blockId=ControlRemoto_Button block="Boton|número %num|valor %value"
     //% weight=95
     //% blockGap=10
     //% color="#C814B8"
@@ -352,7 +352,7 @@ namespace ControlRemoto {
         return temp;         
     }
     
-    //% blockId==onKey block="Key %pin |Press"
+    //% blockId==onKey block="Boton %pin |Pulso"
     //% weight=94
     //% blockGap=10
     //% color="#C814B8"
@@ -375,7 +375,7 @@ namespace ControlRemoto {
         pins.onPulsed(Pin, PulseValue.Low, body);
     }
     
-    //% blockId=ControlRemoto_Music_Handle block="Music_Handle|%index"
+    //% blockId=ControlRemoto_Music_Handle block="Control_Musica|%index"
     //% weight=92
     //% blockGap=10
     //% color="#C814B8"
@@ -405,7 +405,7 @@ namespace ControlRemoto {
         }
     }
     
-    //% blockId=ControlRemoto_Servo_Handle block="Servo_Handle|num %num|value %value"
+    //% blockId=ControlRemoto_Servo_Handle block="Control_Servo|número %num|valor %value"
     //% weight=91
     //% blockGap=10
     //% color="#C814B8"
@@ -420,7 +420,7 @@ namespace ControlRemoto {
 
     }
         
-    //% blockId=ControlRemoto_Ultrasonic_Handle block="ultrasonic return distance(cm)"
+    //% blockId=ControlRemoto_Ultrasonic_Handle block="Ultrasonido retorna distancia(cm)"
     //% color="#C814B8"
     //% weight=90
     //% blockGap=10
@@ -448,7 +448,7 @@ namespace ControlRemoto {
       return  Math.floor(length);
     }
 
-    //% blockId=ControlRemoto_RGB_Colorful block="RGB_Colorful|%value"
+    //% blockId=ControlRemoto_RGB_Colorful block="RGB_Colorido|%value"
     //% weight=89
     //% blockGap=10
     //% color="#C814B8"
@@ -506,7 +506,7 @@ namespace ControlRemoto {
         }
     }
     
-    //% blockId=ControlRemoto_Stepper_Motor block="Stepper_Motor|value %value|value1 %value1"
+    //% blockId=ControlRemoto_Stepper_Motor block="Motor_Paso_A_Paso|valor %value|valor1 %value1"
     //% weight=88
     //% blockGap=10
     //% color="#C814B8"
@@ -579,7 +579,7 @@ namespace ControlRemoto {
             }               
         } 
     }  
-    //% blockId=ControlRemoto_Min_Motor block="Min_Motor|value %value"
+    //% blockId=ControlRemoto_Min_Motor block="Minimo_Motor|valor %value"
     //% weight=87
     //% blockGap=10
     //% color="#C814B8"
@@ -628,7 +628,7 @@ namespace ControlRemoto {
             }
         }               
     }   
-    //% blockId=ControlRemoto_Rotate block="Rotate|value %value"
+    //% blockId=ControlRemoto_Rotate block="Girar|valor %value"
     //% weight=86
     //% blockGap=10
     //% color="#C814B8"
@@ -698,7 +698,7 @@ namespace ControlRemoto {
         return a;
     }
     
-    //% blockId=ControlRemoto_Beam block="Beam|value %value"
+    //% blockId=ControlRemoto_Beam block="Destello|valor %value"
     //% weight=85
     //% blockGap=10
     //% color="#C814B8"
